@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World - AssemblyScript</title>
+    <!-- <script
+    type="module"
+    src="./examples/01.hello-world.js"
+  ></script> -->
+    <!-- <script
+    type="module"
+    src="./examples/02-exports.js"
+  ></script> -->
+    <!-- <script
+      type="module"
+      src="./examples/03.webassembly-linear-memory.js"
+    ></script> -->
+    <!-- <script
+      type="module"
+      src="./examples/04-importing-javascript-functions-into-webAssembly.js"
+    ></script> -->
+    <!-- <script
+      type="module"
+      src="./examples/05-reading-and-writing-graphics.js"
+    ></script> -->
+    <script
+      type="module"
+      src="./examples/06-reading-and-writing-audio.js"
+    ></script>
+  </head>
+  <body>
+    <!-- <canvas
+      width="20"
+      height="20"
+      style="
+        image-rendering: pixelated;
+        image-rendering: crisp-edges;
+        width: 100%;
+      "
+    >
+    </canvas> -->
+    <h1>NOTE: Be careful if using headphones</h1>
+
+    <h1>Original Sine Wave</h1>
+    <div><button onclick="playOriginal()">Play</button></div>
+
+    <hr />
+
+    <h1>Amplified Sine Wave</h1>
+    <div><button onclick="playAmplified()">Play</button></div>
+
+    <hr />
+
+    <h1>Pause</h1>
+    <div><button onclick="pause()">Pause</button></div>
+  </body>
+</html>

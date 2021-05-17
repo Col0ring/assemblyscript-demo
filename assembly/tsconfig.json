@@ -1,0 +1,8 @@
+{
+  "extends": "assemblyscript/std/assembly.json",
+  "include": [
+    "./**/*.ts",
+    "Hello-World/hello-world.js",
+    "Hello-World/demo-util.js"
+  ]
+}
